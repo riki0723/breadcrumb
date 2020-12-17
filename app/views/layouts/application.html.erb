@@ -10,6 +10,9 @@
   </head>
 
   <body>
+    <%= breadcrumbs separator: " &rsaquo; " %>
+    <%# breadcrumbs.rbファイルで実装したパンくずが画面に表示されます。 %>
+    <%# separator: " &rsaquo;”は、パンくず間の区切りである「>」を示します。 %>
     <%= yield %>
   </body>
 </html>
